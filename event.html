@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js-practice/main.js"></script>    
+    <title>event</title>
+</head>
+<body style="background-color: black;">
+    <input type="button" value="우욱" onmouseover="alert('앗')">
+    <input type="text" onchange="alert('change')">
+    <input type="text" onkeydown="alert('key down!')">
+    <input type="button" value="night" onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white';">
+    <input type="button" value="daylight" onclick="document.querySelector('body').style.backgroundColor='white'; document.querySelector('body').style.color='black';">
+</body>
+</html>
