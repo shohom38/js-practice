@@ -15,17 +15,7 @@
     <input type="button" value="day" onclick="
     document.querySelector('body').style.color='black';
     document.querySelector('body').style.backgroundColor='white';"> -->
-    <input id="nightToDay" type="button" value="night" onclick="
-    if(document.querySelector('#nightToDay').value == 'night'){
-        document.querySelector('body').style.backgroundColor='black';
-        document.querySelector('body').style.color='white';
-        document.querySelector('#nightToDay').value = 'day';
-    } else {
-        document.querySelector('body').style.backgroundColor='white';
-        document.querySelector('body').style.color='black';
-        document.querySelector('#nightToDay').value = 'night';
-    };
-    ">
+    <input id="nightToDay" type="button" value="night" onclick="dayOrNight()">
     <h2>javascript</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse animi est, vel autem voluptatum beatae temporibus ducimus nesciunt modi veniam cupiditate rem quasi velit blanditiis quis quibusdam debitis perferendis? Molestiae.</p>
 </body>
